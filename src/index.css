@@ -152,3 +152,55 @@ body {
   font-weight: 550;
   cursor: pointer;
 }
+
+.list {
+  margin: 2rem 1rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.list--item {
+  margin: 1rem 1rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.list--image {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+
+.list--des {
+  display: flex;
+  flex-direction: row;
+  margin: 0.1rem auto;
+}
+
+.list--title {
+  margin-right: 2.5rem;
+}
+
+.vantype {
+  margin-left: 13.2rem;
+  width: 5rem;
+  height: 1.7rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.simple {
+  background-color: #E17654;
+  color: #FFEAD0;
+}
+
+.rugged {
+  background-color: #115E59;
+  color: #FFEAD0;
+}
+
+.luxury {
+  background-color: #161616;
+  color: #FFEAD0;
+}

@@ -8,7 +8,6 @@ function Navbar(){
                 <Link className="right--1" to="/about">About</Link>
                 <Link className="right--2" to="/vans">Vans</Link>
             </nav>
-           
         </div>
     )
 }
