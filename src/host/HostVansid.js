@@ -24,10 +24,6 @@ function HostVansid(){
                 <img src={vanData.vans.imageUrl} alt="" />
                 {vanData.vans.name}
                 <p>${vanData.vans.price}/day</p>
-                {/* <p>Name: {vanData.vans.name}</p>
-                <p>Category: {vanData.vans.type}</p>
-                <p>Description: {vanData.vans.description}</p>
-                <p>Visibility: Public</p> */}
                 <nav>
                     <Link to=".">Overview</Link>
                     <Link to="pricing">Pricing</Link>
